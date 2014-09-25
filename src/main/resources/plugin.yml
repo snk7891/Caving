@@ -1,0 +1,5 @@
+name: Caving
+main: com.robgadgets.mc.caving.Caving
+version: 0.2
+author: Rob7891
+load: STARTUP

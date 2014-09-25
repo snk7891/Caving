@@ -1,0 +1,57 @@
+# Caving plugin by rob7891
+#
+# This is the main configuration file.
+# Here you can adjust almost every aspect of the Caving plugin.
+# You can enable/disable any component and you change the chance
+# of any event to occur (chances are integer values between 0 and 99)
+
+# Encounter mechanics: sneaky attacks and ambushes
+spawningEnhancements:
+  enabled: true
+  period: 60
+  sneaky:
+    minRadius: 2
+    maxRadius: 10
+    chance: 10
+  ambush:
+    minZombieCount: 1
+    maxZombieCount: 3
+    minSkeletonCount: 1
+    maxSkeletonCount: 3
+    minRadius: 1
+    maxRadius: 15
+    chance: 5
+    fakeChance: 30
+    blackout: 300
+    fakeTargets: 2
+    delay: 20
+
+# Warriors' hut buildings and content
+warriorsHuts:
+  enabled: true
+  chance: 45
+  minHeight: 6
+  maxHeight: 50
+  silverfishChance: 6
+  chestMaxItemCount: 8
+  enderPearlChance: 60
+  
+# Miscellaneous enhancements
+general:
+  preventEquippingPumpkins: true
+  forbidFireResPotions: true
+  
+# Empowered monters
+monsters:
+  enabled: true
+  pigmenDiamondDropRate: 30
+  endermanDiamondDropRate: 15
+  chargedCreeperSpawnChance: 20
+  tntSkeletonSpawnChance: 15
+  cocoonSpiderSpawnChance: 15
+  ghastLavaBulletChance: 30
+  empoweredZombieSpawnChance: 20
+  witchHarmChance: 10
+  witherHeadDropRate: 20
+  gorgoneEndermanSpawnChance: 20
+  enderDragonVampireRate: 25
